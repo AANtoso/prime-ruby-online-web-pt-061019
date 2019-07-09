@@ -4,7 +4,7 @@ def prime?(num)
     return false
   elsif num == 2
     return true
-  else 
+  else
     (2..num/2).none? {|num2| num % num2 == 0}
   end
 end
